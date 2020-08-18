@@ -39,6 +39,28 @@ namespace PrototypeApp
             Console.WriteLine(tvSamsung);
             Console.WriteLine(lenovo);
 
+            Console.WriteLine("*:* ---------------------------- *:*");
+
+            //Another Example of Prototyping
+            var xProduct = new MemberwiseClone.Product("Product X", new MemberwiseClone.Category("NN"));
+
+            Console.WriteLine("Before modified the shallow copy" + Environment.NewLine + xProduct);
+
+            var xProd2 = xProduct.ShallowCopy();
+            xProd2.Name = "Product Y";
+            xProd2.Category.Name = "CCC";
+
+            Console.WriteLine("Shallow copy" + Environment.NewLine + xProd2);
+            Console.WriteLine("Afte modified the shallow copy" + Environment.NewLine + xProduct);
+
+            var xProd3 = xProduct.DeepCopy();
+            xProd3.Name = "Product Z";
+            xProd3.Category.Name = "ZZZ";
+
+            
+            Console.WriteLine(xProd3);
+
+
             Console.ReadLine();
         }
     }
