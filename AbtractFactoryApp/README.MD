@@ -4,3 +4,4 @@ En este projecto plasmo los conceptos aprendidos en el curso **Patrones de dise�
 Para este caso en particular se emplea la noción de crear Sanduches, donde el proceso de creacion (Build Creation Process) implica agregar items, para conformar un producto final.
 
 ### Abstract Factory 
+Patrón empleado para Creación de Objetos
