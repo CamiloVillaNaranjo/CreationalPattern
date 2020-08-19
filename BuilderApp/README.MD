@@ -1,6 +1,10 @@
 # BuilderApp
 
-En este projecto plasmo los conceptos aprendidos en el curso **Patron de diseño y principios SOLID**. La idea es tener un registro de mis avances en dicho curso, para futuras referencias.
-Para este caso en particular se emplea la noción de crear Sanduches, donde el proceso de creacion (Build Creation Process) implica agregar items, para conformar un producto final.
+In this project I embody the concepts learned in the **SOLID Design Patterns and Principles course**. The idea is to have a record of my progress in that course, for future reference.
 
-### Builder
+## Builder Pattern
+
+Is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+
+### About the Code
+For this particular case, the notion of creating sandwiches is used, where the creation process involves adding items to form a final product (a Sandwich).
