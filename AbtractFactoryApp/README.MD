@@ -1,7 +1,12 @@
 # AbstractFactoryApp
 
-En este projecto plasmo los conceptos aprendidos en el curso **Patrones de diseño y principios SOLID**. La idea es tener un registro de mis avances en dicho curso, para futuras referencias.
-Para este caso en particular se emplea la noción de crear Sanduches, donde el proceso de creacion (Build Creation Process) implica agregar items, para conformar un producto final.
+In this project I embody the concepts learned in the **SOLID Design Patterns and Principles course**. The idea is to have a record of my progress in that course, for future reference.
 
-### Abstract Factory 
-Patrón empleado para Creación de Objetos
+## Abstract Factory Pattern 
+
+is a creational design pattern that lets you produce families of related objects without specifying their concrete classes
+
+### About the Code
+
+For this particular case, the notion of creating Sandwichs is used, where the _Build Creation Process_ involves adding items to prepare a final product (a Sandwich).
+**BBq Rib**, **Black Forest Ham**, **Cold Cut Combo**, etc. all of them are recipes, in which we found a Type of ´Bread´, a List of ´IProteins´, ´IVeggies´, ´ICheese´, ´ISauces´ that will vary depending on the recipe chosen and the Store where you buy it.
