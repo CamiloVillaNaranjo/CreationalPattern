@@ -9,4 +9,4 @@ is a creational design pattern that lets you produce families of related objects
 ### About the Code
 
 For this particular case, the notion of creating Sandwichs is used, where the _Build Creation Process_ involves adding items to prepare a final product (a Sandwich).
-**BBq Rib**, **Black Forest Ham**, **Cold Cut Combo**, etc. all of them are recipes, in which we found a Type of ´Bread´, a List of ´IProteins´, ´IVeggies´, ´ICheese´, ´ISauces´ that will vary depending on the recipe chosen and the Store where you buy it.
+**BBq Rib**, **Black Forest Ham**, **Cold Cut Combo**, etc. all of them are recipes, in which we found a Type of _Bread_, a List of _IProteins_, _IVeggies_, _ICheese_, _ISauces_ that will vary depending on the recipe chosen and the Store where you buy it.
