@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FactoryApp.Helper;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -18,9 +19,7 @@ namespace FactoryApp.Employees
         }
         public void SetEmail()
         {
-            var initialFirstName = FirstName.Replace(" ", ".").Split(".")[0].ToLower();
-            var initialLastName = LastName.Replace(" ", ".").Split(".")[0].ToLower();
-            var userName = string.Join(".", initialFirstName, initialLastName);
+            var userName = EmployeeHelper.GetUserName(FirstName, LastName);
 
             Email = string.Format("{0}@globant.com", userName);
         }
